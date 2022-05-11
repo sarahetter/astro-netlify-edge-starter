@@ -1,14 +1,22 @@
 ---
 import Layout from '../components/Layout.astro';
+import Button from '../components/Button';
 ---
 
 <Layout title="Netlify Edge functions with Astro">
 	<main>
-		<h1>Netlify Edge functions with Astro</h1>
+		<h1>Netlify Edge Functions with Astro</h1>
 
 		Welcome, visitor from COUNTRYNAME!
+
+		<div><Button client:load /></div>
 	</main>
 </Layout>
 
 <style>
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 </style>

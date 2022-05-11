@@ -1,4 +1,3 @@
-node_modules
 # Logs
 logs
 *.log
@@ -134,3 +133,6 @@ dist
 
 # Local Netlify folder
 .netlify
+
+# Generated Netlify folder (usually not generated!)
+netlify
