@@ -1,4 +1,4 @@
-# Netlify Edge functions with Astro
+# Netlify Edge Functions with Astro
 
 A starter template for building an SSR [Astro](https://astro.build/) app with Netlify Edge Functions.
 
