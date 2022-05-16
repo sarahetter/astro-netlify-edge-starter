@@ -136,3 +136,5 @@ dist
 
 # Generated Netlify folder (usually not generated!)
 netlify
+
+.vscode/
