@@ -1,9 +1,29 @@
 # Netlify Edge functions with Astro
 
-main branch - Astro SSR with static(no js) site working with edge functions
+A starter template for building an SSR [Astro](https://astro.build/) app with Netlify Edge Functions.
 
-ssg branch - SSG site with hydration and edge functions
+This uses Astro's [@astrojs/netlify](https://github.com/withastro/astro/tree/main/packages/integrations/netlify) package to deploy your site with SSR.
 
-ssr-hydration - SSR with hydration, but no edge functions
+**Demo:** https://astro-edge-functions-demo.netlify.app/
 
-ssr-edge-hydration - SSR with hydration and edge functions
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sarahetter/astro-netlify-edge-starter)
+
+### Local development
+
+Within this project directory:
+
+```
+npm install
+npm run dev
+```
+
+### Deploying the project in the command line
+
+1. Install the [netlify cli](https://docs.netlify.com/cli/get-started/) globally:
+```
+npm install netlify-cli -g
+```
+2. Deploy your site:
+```
+netlify deploy --build
+```
