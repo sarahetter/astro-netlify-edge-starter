@@ -16,6 +16,6 @@
     "shx": "^0.3.4"
   },
   "dependencies": {
-    "@astrojs/netlify": "^0.3.3"
+    "@astrojs/netlify": "^0.4.0"
   }
 }
