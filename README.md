@@ -6,13 +6,15 @@ A starter template for building a Server-Side Rendered (SSR) [Astro](https://ast
 
 This uses Astro's [`@astrojs/netlify`](https://github.com/withastro/astro/tree/main/packages/integrations/netlify) package to deploy your site with SSR enabled.
 
-**Demo Site:** https://astro-edge-functions-demo.netlify.app/
+### Demo site
+
+Visit https://astro-edge-functions-demo.netlify.app/ to see the code in this repository in action.
 
 ### Local development
 
 Within this project directory:
 
-```
+```bash
 npm install
 npm run dev
 ```
