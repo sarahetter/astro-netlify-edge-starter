@@ -35,7 +35,7 @@ To get started with local development, follow the instructions below in your ter
 4. Start the application:
 
     ```bash
-    npm install
+    npm run dev
     ```
 
 ### Deploying the project to Netlify
