@@ -12,12 +12,19 @@ Visit https://astro-edge-functions-demo.netlify.app/ to see the code in this rep
 
 ### Local development
 
-Within this project directory:
-
-```bash
-npm install
-npm run dev
-```
+1. Clone this repository locally:
+    ```bash
+    git clone https://github.com/sarahetter/astro-netlify-edge-starter
+    ```
+2. Navigate to the repository folder:
+    ```bash
+    cd astro-netlify-edge-starter
+    ```
+3. Install the package dependencies:
+    ```bash
+    npm install
+    npm run dev
+    ```
 
 ### Deploying the project in the command line
 
