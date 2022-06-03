@@ -38,6 +38,12 @@ To get started with local development, follow the instructions below in your ter
     npm run dev
     ```
 
+If the command was successful, you should be able to get a local URL that you can open in your browser.
+
+![Example of Astro SSR application running locally](media/npm_run_dev.gif)
+
+Keep in mind that because you are running the application locally, the geolocation component will not work. Once you deploy the application to Netlify, the location should be correctly identified.
+
 ### Deploying the project to Netlify
 
 To deploy the project to Netlify, make sure that you have the [Netlify CLI](https://docs.netlify.com/cli/get-started/) installed. You can install the Netlify CLI globally by running this command in the terminal:
