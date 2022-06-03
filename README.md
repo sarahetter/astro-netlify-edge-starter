@@ -1,12 +1,13 @@
-# Netlify Edge Functions with Astro
+# Using Netlify Edge Functions with Astro
 
-A starter template for building an SSR [Astro](https://astro.build/) app with Netlify Edge Functions.
-
-This uses Astro's [@astrojs/netlify](https://github.com/withastro/astro/tree/main/packages/integrations/netlify) package to deploy your site with SSR.
-
-**Demo:** https://astro-edge-functions-demo.netlify.app/
+A starter template for building a Server-Side Rendered (SSR) [Astro](https://astro.build/) app with [Netlify Edge Functions](https://docs.netlify.com/netlify-labs/experimental-features/edge-functions/).
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/sarahetter/astro-netlify-edge-starter)
+
+This uses Astro's [`@astrojs/netlify`](https://github.com/withastro/astro/tree/main/packages/integrations/netlify) package to deploy your site with SSR enabled.
+
+|:----------|:-----------------------------------------------|
+| Demo Site | https://astro-edge-functions-demo.netlify.app/ |
 
 ### Local development
 
