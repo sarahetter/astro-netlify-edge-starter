@@ -6,11 +6,11 @@ A starter template for building a Server-Side Rendered (SSR) [Astro](https://ast
 
 This demo uses Astro's [`@astrojs/netlify`](https://github.com/withastro/astro/tree/main/packages/integrations/netlify) package to deploy your site with SSR enabled. The application will detect the location of the user requesting the page and will render it in the browser.
 
-![Example of the sample application detectiong the location and showing an in-browser alert](media/ssr_hydration.gif)
-
 ### Demo site
 
 Visit https://astro-edge-functions-demo.netlify.app/ to see the code in this repository in action.
+
+![Example of the sample application detectiong the location and showing an in-browser alert](media/ssr_hydration.gif)
 
 ### Local development
 
