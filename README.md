@@ -57,3 +57,13 @@ Once the CLI is installed, run the [deployment command](https://cli.netlify.com/
 ```bash
 netlify deploy --build
 ```
+
+Once the command is executed, you'll be prompted for information about the site where the code needs to be deployed.
+
+![Example of deployment to a new Netlify site](media/new_netlify_site.gif)
+
+If the command is successful, you should see a URL to your site in the terminal.
+
+### Questions and troubleshooting
+
+If you found an issue with the code in this repository, feel free to [open an issue](https://github.com/sarahetter/astro-netlify-edge-starter/issues) or let us know in the [Netlify Forums](https://answers.netlify.com/).
