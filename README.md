@@ -36,13 +36,16 @@ To get started with local development, follow the instructions below in your ter
     npm install
     ```
 
-### Deploying the project in the command line
+### Deploying the project to Netlify
 
-1. Install the [netlify cli](https://docs.netlify.com/cli/get-started/) globally:
-```
+To deploy the project to Netlify, make sure that you have the [Netlify CLI](https://docs.netlify.com/cli/get-started/) installed. You can install the Netlify CLI globally by running this command in the terminal:
+
+```bash
 npm install netlify-cli -g
 ```
-2. Deploy your site:
-```
+
+Once the CLI is installed, run the [deployment command](https://cli.netlify.com/commands/deploy) in the terminal:
+
+```bash
 netlify deploy --build
 ```
