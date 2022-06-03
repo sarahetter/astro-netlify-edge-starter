@@ -12,6 +12,8 @@ Visit https://astro-edge-functions-demo.netlify.app/ to see the code in this rep
 
 ### Local development
 
+To get started with local development, follow the instructions below in your terminal application.
+
 1. Clone this repository locally:
 
     ```bash
@@ -26,7 +28,12 @@ Visit https://astro-edge-functions-demo.netlify.app/ to see the code in this rep
 
     ```bash
     npm install
-    npm run dev
+    ```
+
+4. Start the application:
+
+    ```bash
+    npm install
     ```
 
 ### Deploying the project in the command line
